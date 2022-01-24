@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+  - name: Create File or Directory
+    file:
+      path: /home/sharmilajaveed427/Yusra.txt
+      state: touch
+      mode: 0755
+      owner: sharmilajaveed427
+      group: sharmilajaveed427
+

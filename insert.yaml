@@ -1,0 +1,10 @@
+
+---
+- hosts: all
+  tasks:
+   - name: Insert line
+     lineinfile:
+                path: /home/sharmilajaveed427/Yusra.txt
+                line: sharmila's
+
+
